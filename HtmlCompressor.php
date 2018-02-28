@@ -112,9 +112,9 @@ class HtmlCompressor
 
             // Filter out any blank lines that aren't inside a <pre> block...
             if ($inside_pre || $inside_textarea) {
-                $out .= $line;
-            } elseif ($line != '') {
                 $out .= $line . "\n";
+            } elseif ($line != '') {
+                $out .= $line;
             }
         }
 
