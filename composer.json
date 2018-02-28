@@ -18,6 +18,11 @@
       "name": "Saeed Ghanbari",
       "email": "sgh370@yahoo.com",
       "homepage": "http://saeedghanbari.com/"
+    },
+	{
+      "name": "Revin Roman",
+      "email": "roman@rmrevin.com",
+      "homepage": "https://rmrevin.com/"
     }
   ],
   "require": {
@@ -26,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "sgh370\\yii\\minify\\": ""
+      "rmrevin\\yii\\minify\\": ""
     }
   },
   "config": {
