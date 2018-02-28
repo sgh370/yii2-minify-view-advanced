@@ -50,26 +50,23 @@ return [
 			'forceCharset' => 'UTF-8', // charset forcibly assign, otherwise will use all of the files found charset
 			'expandImports' => true, // whether to change @import on content
 			'compressOptions' => ['extra' => true], // options for compress
-            'excludeModules' => [
-                'categories' => [], // all controllers of this module
-                'posts' => ['index'] // exclude only index controller from posts module
-            ],
-            'excludeUrls' => [
-                'posts/add' // exclude posts/add/* (exclude url that starts with posts/add)
-            ],
-            'excludeFiles' => [
-            	'jquery.js', // exclude this file from minification
-            	'app-[^.].js', // you may use regexp
-            ],
-            'excludeBundles' => [
-            	\dev\helloworld\AssetBundle::class, // exclude this bundle from minification
-            ],
+			'excludeModules' => [
+				'categories' => [], // all controllers of this module
+				'posts' => ['index'] // exclude only index controller from posts module
+			],
+			'excludeUrls' => [
+				'posts/add' // exclude posts/add/* (exclude url that starts with posts/add)
+			],
+			'excludeFiles' => [
+				'jquery.js', // exclude this file from minification
+				'app-[^.].js', // you may use regexp
+			],
+			'excludeBundles' => [
+				\dev\helloworld\AssetBundle::class, // exclude this bundle from minification
+			],
 		]
 	]
 ];
 ```
 
-Creator
--------
-name: sgh370
-email: sgh370@yahoo.com
+Creator: sgh370@yahoo.com
